@@ -1,0 +1,32 @@
+.form-default{
+    .form-group{position: relative;margin-bottom: 20px;}
+    .control-label{margin-bottom: 10px;font-weight: normal; @extend .font-body; color: $color-dark;line-height: 1.2em;}
+    .form-control{line-height: 1.2em; padding: 10px 0px;  @extend .font-body; color: $color-dark;min-height: 40px;
+        background-color: $color-light; border: 1px solid $color-dark;
+        @include border-radius(0px);
+        @include box-shadow(none);
+        &:focus{border-color: $color-dark;}
+    }
+    .floating-label{@extend .font-body; color: $color-dark; position: absolute; z-index: +1; pointer-events: none;left: 0px;top: 9px;
+        @include transition(all 200ms ease-out);
+    }
+    .form-control:focus ~ .floating-label,
+    .form-control:not(:focus):valid ~ .floating-label{color: $color-darkgray; font-size: 12px; left: 0; top: -22px;}
+    .block-control{position: relative;}
+    .has-error{
+        .form-control:focus{@include box-shadow(none);}
+    }
+    .has-success{
+        .form-control:focus{@include box-shadow(none);}
+    }
+}
+.form-control-feedback{position: absolute;top: 10px;right: 10px;width: 20px;height: 20px;background-size: 100%;
+    &:before{display: none;}
+    &.glyphicon-ok{
+        background: url('../img/icon/checked.png') center no-repeat;background-size: 16px;
+    }
+    &.glyphicon-remove{
+        background: url('../img/icon/cancel.png') center no-repeat;background-size: 16px;
+    }
+}
+.form-button{padding-top: 42px;}

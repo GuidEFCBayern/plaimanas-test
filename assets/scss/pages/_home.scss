@@ -1,0 +1,83 @@
+.main-slider{
+	.cover{padding-bottom: 0; height: 100vh;}
+	.video-container{padding-bottom: 100vh;
+		video{object-fit: cover;}
+	}
+}
+.wg-item-list{padding-top: 190px; padding-bottom: 260px;
+	.item-list{
+		li{width: 100%;
+			&:nth-child(5n+1){
+				.box{width: 1064px;}
+				.thumb{
+					.text-box{
+						.height{height: 420px;}
+					}
+					.video-container{display: none;}
+				}
+			}
+			&:nth-child(5n+2){margin-top: 185px;
+				.box{width: 100%;}
+				.thumb{
+					.text-box{
+						.height{height: 1000px;}
+					}
+					.video-container{display: none;}
+				}
+			}
+			&:nth-child(5n+3){margin-top: 185px;
+				.box{width: 1870px;}
+				.thumb{
+					.title{@extend .font-m-head;}
+					.cover{padding-bottom: 50%;}
+					.video-container{padding-bottom: 50%;}
+				}
+				.content{display: none;}
+			}
+			&:nth-child(5n+4){ width: 50%;margin-top: 152px; display: flex; justify-content: flex-end; padding-right: 76px;
+				.box{width: 860px; margin: 0;}
+				.thumb{
+					.title{@extend .font-s-head;}
+				}
+				.content{display: none;}
+			}
+			&:nth-child(5n+5){ width: 50%;margin-top: 152px; display: flex; justify-content: flex-start; padding-left: 76px;
+				.box{width: 860px; margin: 0;}
+				.thumb{
+					.title{@extend .font-s-head;}
+				}
+				.content{display: none;}
+			}
+		}
+	}
+	.link{display: block;
+		&:hover{
+			.thumb{
+				.cover{
+					.lazy{ @include transform(scale(1.1));}
+				}
+				.video-container{opacity: 1;}
+			}
+		}
+	}
+	.box{margin: 0 auto;}
+	.thumb{position: relative; overflow: hidden;
+		.text-box{position: absolute; z-index: +2; top: 0; left: 0; right: 0; bottom: 0;
+			&.-flex-cen{display: flex; justify-content: center; align-items: center;}
+			.height{position: absolute; opacity: 0; pointer-events: none;}
+		}
+		.title{@extend .font-head; text-align: center; color: $color-light; text-transform: uppercase; margin: 0;}
+		.cover{padding-bottom: 100%; background-color: #a6a5ab; overflow: hidden;
+			.lazy{@extend .transition; @include transform(scale(1));}
+		}
+		.mark-effect{padding-top: 40%;}
+		.video-container{position: absolute; z-index: +1; top: 0; left: 0; right: 0; bottom: 0; padding-bottom: 100%;
+			@extend .transition; opacity: 0;
+			video{object-fit: cover;}
+		}
+	}
+	.content{width: 870px; margin: 0 auto; padding-top: 30px; text-align: center;
+		.txt{@extend .font-h-body; color: $color-dark; margin-bottom: 20px;}
+		.desc{@extend .font-body; color: $color-dark; margin: 0;}
+	}
+}

@@ -1,0 +1,335 @@
+@media (max-width: 2000px) {
+	.container{max-width: inherit; width: 1600px;}
+
+	.font-head, 
+	.wg-item-list .thumb .title {font-size: 150px;}
+
+	.font-m-head, 
+	.wg-item-list .item-list li:nth-child(5n+3) .thumb .title {font-size: 120px;}
+
+	.font-s-head, 
+	.wg-item-list .item-list li:nth-child(5n+5) .thumb .title, 
+	.wg-item-list .item-list li:nth-child(5n+4) .thumb .title {font-size: 70px;}
+
+	.wg-item-list .item-list li:nth-child(5n+2) .thumb .text-box .height {height: 700px;}
+	.wg-item-list .item-list li:nth-child(5n+3) .box {width: 1380px;}
+	.wg-item-list .item-list li:nth-child(5n+4) .box,
+	.wg-item-list .item-list li:nth-child(5n+5) .box {width: 614px;}
+
+}
+
+@media (max-width: 1600px) {
+	.container{max-width: inherit; width: 1440px;}
+
+	.font-head, 
+	.wg-item-list .thumb .title {font-size: 120px;}
+
+	.font-m-head, 
+	.wg-item-list .item-list li:nth-child(5n+3) .thumb .title {font-size: 90px;}
+	
+	.font-s-head, 
+	.wg-item-list .item-list li:nth-child(5n+5) .thumb .title, 
+	.wg-item-list .item-list li:nth-child(5n+4) .thumb .title {font-size: 50px;}
+
+	.font-h-body, 
+	.wg-item-list .content .txt {font-size: 28px;}
+
+	.font-body, 
+	.site-footer .pdpa .link, 
+	.site-footer .pdpa .txt, 
+	.site-footer .footer-bottom .web-by, 
+	.site-footer .footer-bottom .brand, 
+	.site-footer .footer-bottom .box .link, 
+	.site-footer .footer-bottom .box .title, 
+	.site-footer .footer-top .active-menu, 
+	.site-footer .footer-top .desc, 
+	.site-header .cart .link, 
+	.site-header .sign-in .link, 
+	.site-header .price .link, 
+	.wg-item-list .content .desc, 
+	.form-default .floating-label, 
+	.form-default .form-control, 
+	.form-default .control-label, 
+	.btn,
+	nav.menu .dropdown-menu .link, 
+	nav.menu li a.link {font-size: 22px;}
+
+	.font-menu-hover, 
+	.site-header.box-hover nav.menu li.show > a.link, 
+	nav.menu li.active a.link, 
+	nav.menu li a.link:hover {font-size: 40px;}
+
+	.site-header {padding: 0 30px;}
+
+	nav.menu li + li {margin-left: 60px;}
+
+	.wg-item-list .item-list li:nth-child(5n+1) .box {width: 880px;}
+	.wg-item-list .item-list li:nth-child(5n+1) .thumb .text-box .height {height: 380px;}
+
+	.site-footer .pdpa{min-height: inherit;}
+	.site-footer .inner {margin: 0 -30px;}
+	.site-footer .footer-top .active-menu {padding-top: 100px;}
+	.site-footer .footer-top .title,
+	.site-footer .footer-bottom .box .title{margin-bottom: 35px;}
+	.site-footer .footer-bottom .box .item-list li + li {margin-top: 30px;}
+	.site-footer .footer-bottom .box.-fluid .wrapper {width: 550px;}
+	.site-footer .footer-bottom .row + .row {margin-top: 100px;}
+
+}
+
+@media (max-width: 1440px) /*check 1280*/ {
+	.container{max-width: inherit; width: 1210px;}
+
+	.font-head, 
+	.wg-item-list .thumb .title {font-size: 100px;}
+
+	.font-m-head, 
+	.wg-item-list .item-list li:nth-child(5n+3) .thumb .title {font-size: 70px;}
+	
+	.font-s-head, 
+	.wg-item-list .item-list li:nth-child(5n+5) .thumb .title, 
+	.wg-item-list .item-list li:nth-child(5n+4) .thumb .title {font-size: 40px;}
+
+	.font-h-body, 
+	.wg-item-list .content .txt {font-size: 26px;}
+
+	.font-body, 
+	.site-footer .pdpa .link, 
+	.site-footer .pdpa .txt, 
+	.site-footer .footer-bottom .web-by, 
+	.site-footer .footer-bottom .brand, 
+	.site-footer .footer-bottom .box .link, 
+	.site-footer .footer-bottom .box .title, 
+	.site-footer .footer-top .active-menu, 
+	.site-footer .footer-top .desc, 
+	.site-header .cart .link, 
+	.site-header .sign-in .link, 
+	.site-header .price .link, 
+	.wg-item-list .content .desc, 
+	.form-default .floating-label, 
+	.form-default .form-control, 
+	.form-default .control-label, 
+	.btn,
+	nav.menu .dropdown-menu .link, 
+	nav.menu li a.link {font-size: 18px;}
+
+	.font-menu-hover, 
+	.site-header.box-hover nav.menu li.show > a.link, 
+	nav.menu li.active a.link, 
+	nav.menu li a.link:hover {font-size: 35px;}
+
+	.wg-brand .section-animate{height: 600px;}
+
+	.wg-item-list {padding-bottom: 150px;}
+	.wg-item-list .item-list li:nth-child(5n+2) .thumb .text-box .height {height: 560px;}
+	.wg-item-list .item-list li:nth-child(5n+3) .box {width: 1000px;}
+	.wg-item-list .item-list li:nth-child(5n+4) .box,
+	.wg-item-list .item-list li:nth-child(5n+5) .box {width: 424px;}
+
+	.form-button {padding-top: 22px;}
+
+	.site-footer .inner {margin: 0;}
+	.site-footer .footer-bottom .box.-fluid .wrapper {width: 450px;}
+	.site-footer .footer-bottom .line .lazy {width: 140px;height: 140px;}
+
+}
+
+@media (max-width: 1199px) /*check 1024*/{
+	.container{max-width: inherit; width: 970px;}
+
+	.font-head, 
+	.wg-item-list .thumb .title {font-size: 80px;}
+
+	.font-m-head, 
+	.wg-item-list .item-list li:nth-child(5n+3) .thumb .title {font-size: 50px;}
+	
+	.font-s-head, 
+	.wg-item-list .item-list li:nth-child(5n+5) .thumb .title, 
+	.wg-item-list .item-list li:nth-child(5n+4) .thumb .title {font-size: 30px;}
+
+	.font-h-body, 
+	.wg-item-list .content .txt {font-size: 24px;}
+
+	.font-body, 
+	.site-footer .pdpa .link, 
+	.site-footer .pdpa .txt, 
+	.site-footer .footer-bottom .web-by, 
+	.site-footer .footer-bottom .brand, 
+	.site-footer .footer-bottom .box .link, 
+	.site-footer .footer-bottom .box .title, 
+	.site-footer .footer-top .active-menu, 
+	.site-footer .footer-top .desc, 
+	.site-header .cart .link, 
+	.site-header .sign-in .link, 
+	.site-header .price .link, 
+	.wg-item-list .content .desc, 
+	.form-default .floating-label, 
+	.form-default .form-control, 
+	.form-default .control-label, 
+	.btn,
+	nav.menu .dropdown-menu .link, 
+	nav.menu li a.link {font-size: 16px;}
+
+	.font-menu-hover, 
+	.site-header.box-hover nav.menu li.show > a.link, 
+	nav.menu li.active a.link, 
+	nav.menu li a.link:hover {font-size: 25px;}
+
+	nav.menu li + li {margin-left: 40px;}
+	nav.menu .dropdown-menu .link:hover {font-size: 25px;}
+
+	.wg-brand {top: 105px; left: 20px; right: 20px;}
+	.wg-brand .section-animate{height: 400px;}
+
+	.wg-item-list {padding-top: 80px; padding-bottom: 50px;}
+	.wg-item-list .item-list li:nth-child(5n+2) {margin-top: 100px;}
+	.wg-item-list .item-list li:nth-child(5n+2) .thumb .text-box .height {height: 450px;}
+	.wg-item-list .item-list li:nth-child(5n+3) {margin-top: 100px;}
+	.wg-item-list .item-list li:nth-child(5n+3) .box {width: 100%;}
+	.wg-item-list .item-list li:nth-child(5n+4) {margin-top: 40px; padding-right: 20px;}
+	.wg-item-list .item-list li:nth-child(5n+5) {margin-top: 40px; padding-left: 20px;}
+	.wg-item-list .item-list li:nth-child(5n+4) .box,
+	.wg-item-list .item-list li:nth-child(5n+5) .box {width: 100%;}
+
+	.site-footer .footer-top .-worldwide-top{margin-bottom: 30px;}
+	.site-footer .footer-top .active-menu {padding-top: 50px;}
+	.site-footer .footer-top .title, 
+	.site-footer .footer-bottom .box .title {margin-bottom: 20px;}
+	.site-footer .footer-bottom {padding: 35px 0;}
+	.site-footer .footer-bottom .box .item-list li + li {margin-top: 10px;}
+	.site-footer .footer-bottom .box.-fluid .wrapper {margin-right: 0;}
+	.site-footer .footer-bottom .brand{margin-left: 0;}
+	.site-footer .footer-bottom .web-by{margin-right: 0;}
+	.site-footer .footer-bottom .row + .row {margin-top: 50px;}
+	.site-footer .footer-bottom .box.-fluid .wrapper {width: 70%;margin-top: 50px;}
+	.site-footer .pdpa{padding: 20px;}
+	
+}
+
+@media (max-width: 991px) {
+	.container{max-width: inherit; width: 100%; padding-left: 20px; padding-right: 20px;}
+
+	.site-header{padding: 0;}
+	.site-header .height {height: 60px; background-color: $color-light; padding: 0 20px;}
+	.site-header .price {width: 90px;}
+	.site-header .price .dropdown-menu {height: 60px;margin-top: 22px;min-width: 120px;}
+	.site-header .price .dropdown-menu .link {line-height: 60px;}
+	.site-header .cart {padding-left: 20px;padding-right: 40px;}
+	.site-header .sign-in{display: none;}
+	.site-header nav.menu .sign-in{display: block;}
+
+	.site-header.box-hover nav.menu li.show > a.link,
+	.site-header.box-hover nav.menu li.show > a.link:hover{color: $color-dark;}
+
+	.site-container{padding-top: 60px;}
+
+	.wg-brand {top: 17px !important;left: 0;right: 0;z-index: 90;margin: auto;width: 250px; transform: none !important;}
+
+	/*mobile-menu (start)*/
+	.global-container{position: relative; overflow: hidden; right: 0;}
+	.global-container .site-container{position: relative; z-index: 1; right: 0; @include transition(all 400ms ease);}
+	.global-container .site-footer{position: relative;right: 0; @include transition(all 400ms ease);}
+	.global-container.sidebar-open .site-header .overlay{opacity: 1;visibility: visible; pointer-events: visible;}
+	.global-container.sidebar-open .site-container{right: 260px;}
+	.global-container.sidebar-open .site-footer{right: 260px;}
+
+	.site-header > .container{position: relative; z-index: 99;}
+	.site-header .overlay{background-color: rgba(0,0,0,0.8);}
+	
+	.menu-mobile-btn{display: block;}
+	nav.menu {position: fixed; z-index: 100; top: 60px; bottom: 0; width: 260px; display: block;
+		overflow: auto; right: -260px; padding-left: 0; background-color: $color-light;
+		@include transition(all 400ms ease);
+	}
+	nav.menu.open {right: 0;}
+	nav.menu li{width: 100%; border-top: 1px solid $color-border;}
+	nav.menu li:last-child{border-bottom: 1px solid $color-border;}
+	nav.menu li+li{margin-left: 0;}
+	nav.menu li a.link{line-height: 1.4; padding: 15px 20px;}
+	nav.menu .dropdown-menu{min-width: inherit; position: relative !important; transform: none !important; display: none;}
+	nav.menu .dropdown-menu.show{display: block;}
+	nav.menu .dropdown-menu .link{color: $color-dark;}
+	nav.menu .dropdown-menu .link:hover {font-size: 20px;}
+	/*mobile-menu (end)*/
+
+	.main-slider .cover,
+	.main-slider .video-container {padding-bottom: 60%; height: auto;}
+
+	.wg-item-list .content {width: 80%;}
+	.wg-item-list .item-list li:nth-child(5n+1) .box {width: 80%;}
+	.wg-item-list .item-list li:nth-child(5n+1) .thumb .text-box .height {height: 250px;}
+	.wg-item-list .item-list li:nth-child(5n+2) .thumb .text-box .height {height: 300px;}
+	.wg-item-list .item-list li:nth-child(5n+3) .box{width: 80%;}
+
+}
+
+@media (max-width: 767px) {
+	.container{max-width: inherit; width: 100%;}
+
+	.font-head, 
+	.wg-item-list .thumb .title {font-size: 50px;}
+
+	.font-m-head, 
+	.wg-item-list .item-list li:nth-child(5n+3) .thumb .title {font-size: 30px;}
+	
+	.font-s-head, 
+	.wg-item-list .item-list li:nth-child(5n+5) .thumb .title, 
+	.wg-item-list .item-list li:nth-child(5n+4) .thumb .title {font-size: 20px;}
+
+	.font-h-body, 
+	.wg-item-list .content .txt {font-size: 20px;}
+
+	.font-body, 
+	.site-footer .pdpa .link, 
+	.site-footer .pdpa .txt, 
+	.site-footer .footer-bottom .web-by, 
+	.site-footer .footer-bottom .brand, 
+	.site-footer .footer-bottom .box .link, 
+	.site-footer .footer-bottom .box .title, 
+	.site-footer .footer-top .active-menu, 
+	.site-footer .footer-top .desc, 
+	.site-header .cart .link, 
+	.site-header .sign-in .link, 
+	.site-header .price .link, 
+	.wg-item-list .content .desc, 
+	.form-default .floating-label, 
+	.form-default .form-control, 
+	.form-default .control-label, 
+	.btn,
+	nav.menu .dropdown-menu .link, 
+	nav.menu li a.link {font-size: 14px;}
+
+	.font-m-body, 
+	.site-footer .footer-top .title{font-size: 20px;}
+
+	.font-menu-hover, 
+	.site-header.box-hover nav.menu li.show > a.link, 
+	nav.menu li.active a.link, nav.menu li a.link:hover {font-size: 18px;}
+
+	.site-header .price {width: 80px;}
+	.site-header .cart {padding-left: 0;padding-right: 0;width: 21px;margin-left: 15px;margin-right: 40px;}
+
+	.wg-brand {top: 19px !important; width: 150px;}
+
+	.wg-item-list .item-list li:nth-child(5n+1) .thumb .text-box .height {height: 30%;}
+	.wg-item-list .item-list li:nth-child(5n+1) .content{width: 100%;}
+	.wg-item-list .item-list li:nth-child(5n+2) .thumb .text-box .height {height: 30%;}
+
+	
+	.site-footer .footer-top .title, 
+	.site-footer .footer-bottom .box .title {margin-bottom: 10px;}
+	.site-footer .footer-top .-worldwide-top {margin-bottom: 0px;}
+	.site-footer .footer-top .row>div+div{margin-top: 30px;}
+	.site-footer .footer-bottom .box {width: 100%;}
+	.site-footer .footer-bottom .box+.box{margin-top: 30px;}
+	.site-footer .footer-bottom .box.-fluid .wrapper{width: 100%;}
+	.site-footer .footer-bottom .line .lazy {width: 100px;height: 100px;}
+	.site-footer .footer-bottom .form-default .form-control {height: 40px;line-height: 38px;min-height: auto;}
+	.site-footer .footer-bottom .form-button {padding-top: 20px;}
+	.site-footer .footer-bottom .form-button .btn {height: 40px; line-height: 38px;}
+
+}
+
+@media (max-width: 575px) {
+	.container{max-width: inherit; width: 100%;}
+}

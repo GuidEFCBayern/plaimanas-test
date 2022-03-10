@@ -1,0 +1,9 @@
+.editor-content{
+    .font-base-editor{font-size: 26px; font-weight: normal; color: $color-darkgray; line-height: 1.2em; margin-bottom: 20px;}
+    @extend .font-base-editor;
+    p{
+        @extend .font-base-editor;
+        &:last-child{margin-bottom: 0;}
+    }
+    img{height: auto !important;}
+}

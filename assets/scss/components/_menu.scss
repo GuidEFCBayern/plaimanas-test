@@ -1,0 +1,40 @@
+nav.menu{display: flex; justify-content: center;
+    li{
+        a.link{color:$color-dark; display: block; line-height: 90px; text-transform: uppercase;
+            @extend .font-body;
+            &:hover {@extend .font-menu-hover;}
+        }
+        &.active{
+            a.link{@extend .font-menu-hover;}
+        }
+        &.dropdown{
+            a.link {
+                .icon{ display: inline-block; vertical-align: middle;
+                    &:before{content: "\f107"; font-family: 'FontAwesome'; display: none;}
+                }
+            }
+            &.show{
+                a.link{
+                    .icon{
+                        &:before{content: '\f106';}
+                    }
+                }
+            }
+        }
+    }
+    li+li{ margin-left: 85px;}
+    .dropdown-toggle::after{display: none;}
+    .dropdown-menu{background-color: $color-none; border: 0; border-radius: 0;
+        display: block; top: 0; pointer-events: none; opacity: 0; min-width: 300px;
+        @include transition(all 100ms ease-out);
+        @extend .transition;
+        &.show{top: 100%; pointer-events: visible; opacity: 1;}
+        li{width: 100%;}
+        li+li{margin-left: 0;
+            .link{padding-top: 20px}
+        }
+        .link{@extend .font-body; color: $color-light;
+            &:hover{font-size: 30px;}
+        }
+    }
+}

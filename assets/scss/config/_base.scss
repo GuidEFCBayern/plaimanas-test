@@ -1,0 +1,14 @@
+body{
+	font-family: 'akzidenz-grotesk';
+	background-color: #fff;
+	font-size:16px;
+	color: $color-darkgray;
+	line-height: 1em;
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: none;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{font-family: 'akzidenz-grotesk';}
+
+.transition{@include transition(all 600ms ease-out);}

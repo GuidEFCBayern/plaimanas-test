@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('../font/akzidenzgrotesk-bold-webfont.woff2') format('woff2'),
+         url('../font/akzidenzgrotesk-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display:block;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('../font/akzidenzgrotesk-medium-webfont.woff2') format('woff2'),
+         url('../font/akzidenzgrotesk-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display:block;
+}
+@font-face {
+    font-family: 'akzidenz-grotesk';
+    src: url('../font/akzidenzgrotesk-regular-webfont.woff2') format('woff2'),
+         url('../font/akzidenzgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display:block;
+}
+
+.font-head{font-size: 200px; font-weight: 500; line-height: 1.4;}
+.font-m-head{font-size: 150px; font-weight: 500; line-height: 1.4;}
+.font-s-head{font-size: 80px; font-weight: 500; line-height: 1.4;}
+.font-menu-hover{font-size: 60px;}
+.font-h-body{font-size: 30px; font-weight: bold; line-height: 1.4;}
+.font-m-body{font-size: 28px; font-weight: normal; line-height: 1.4;}
+.font-body{font-size: 24px; font-weight: normal; line-height: 1.4;}

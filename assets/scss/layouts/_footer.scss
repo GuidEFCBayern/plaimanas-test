@@ -1,0 +1,51 @@
+.site-footer{
+    .inner{margin: 0 -75px;}
+    .footer-top{padding: 35px 0;
+        .title{@extend .font-m-body; color: $color-dark; margin-bottom: 45px; text-transform: uppercase;}
+        .desc{@extend .font-body; color: $color-gray;
+            .link{ color: $color-gray;
+                &:hover{text-decoration: underline;}
+            }
+        }
+        .active-menu{@extend .font-body; padding-top: 140px; color: $color-dark; text-transform: uppercase;}
+    }
+    .footer-bottom{padding: 65px 0 55px 0; background-color: #f8f9f8;
+        .box{float: left; width: calc(100%/4);
+            &.-fluid{width: 100%;
+                .wrapper{width: 735px; margin-right: -30px;}
+            }
+            .title{@extend .font-body; color: $color-dark; margin-bottom: 45px; text-transform: uppercase;}
+            .item-list{
+                li{width: 100%;
+                    +li{margin-top: 40px;}
+                }
+            }
+            .link{ color: $color-gray; @extend .font-body;
+                &:hover{color: #acacac;}
+            }
+        }
+        .row{
+            +.row{margin-top: 140px;}
+        }
+        .form-default{padding-right: 20px;
+            .form-group{margin-bottom: 0;}
+            .form-control{border: 0; border-bottom: 2px solid #999999; height: 54px; line-height: 52px;
+                background-color: $color-none;
+            }
+        }
+        .line{
+            .link{display: block;}
+            .lazy{width: 160px; height: 160px}
+        }
+        .brand{@extend .font-body; color: $color-dark; text-transform: uppercase; margin-left: -30px;}
+        .web-by{@extend .font-body; color: $color-dark; text-transform: uppercase; margin-right: -30px;}
+    }
+    .pdpa{position: fixed; z-index: 99; left: 0; right: 0; bottom: 0; min-height: 154px; 
+        background-color: rgba(255,255,255,0.9); padding: 25px 0; text-align: center;
+        &.hide{display: none}
+        .txt{@extend .font-body; color: $color-dark; margin-bottom: 20px;}
+        .link{@extend .font-body; color: $color-dark; text-transform: uppercase;
+            &:hover{text-decoration: underline;}
+        }
+    }
+}

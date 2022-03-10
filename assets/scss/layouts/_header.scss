@@ -1,0 +1,57 @@
+.site-header{position: fixed; z-index: 90; background-color: $color-light; width: 100%; padding: 0 55px;
+    @extend .transition;
+    .height{height: 90px; align-items: center; position: relative; z-index: 88;}
+    .price{ width: 130px;
+        .link{display: block; color: $color-dark; text-transform: uppercase;
+            @extend .font-body;
+        }
+        .dropdown-menu{margin-left: -20px; height: 90px; margin-top: 33px;
+            background-color: #f8f9f8; border-radius: 0; border: 0;
+            li{width: 100%;}
+            .link{line-height: 90px; text-align: center;}
+        }
+    }
+    .sign-in{
+        .link{display: block; color: $color-dark; text-transform: uppercase;
+            @extend .font-body;
+            &:hover{text-decoration: underline;}
+        }
+    }
+    .cart{padding-left: 50px;
+        .link{display: block; color: $color-dark; position: relative; top: 0;
+            @extend .font-body;
+            &:hover{top: -3px;}
+        }
+    }
+    nav.menu{
+        .sign-in{display: none;
+            .link{display: block; color: $color-dark; text-transform: uppercase; background-color: #f8f9f8;
+                @extend .font-body; border-top: 1px solid $color-border; position: relative;
+                padding: 15px 35px 15px 20px;
+                &:hover{background-color: $color-dark; color: $color-light;}
+                .feather{position: absolute; top: 0; bottom: 0; right: 15px; width: 20px; height: 20px; font-size: 20px; margin: auto;}
+            }
+        }
+    }
+    .brand{position: absolute; top: 134px; left: 0; right: 0; text-align: center;
+        .lazy{max-height: 250px; @extend .transition;}
+    }
+    .overlay{position: fixed; z-index: 87; background-color: $color-dark; 
+        top: 0; left: 0; right: 0; bottom: 0; opacity: 0; pointer-events: none;
+        @extend .transition;
+    }
+}
+.site-header.box-hover{background-color: $color-dark;
+    nav.menu{
+        li.show{
+            >a.link{@extend .font-menu-hover;color: $color-light;
+                &:hover{color: $color-light;}
+            }
+        }
+    }
+    .overlay{opacity: 1; pointer-events: visible;}
+}
+.wg-brand{position: fixed; z-index: 85; top: 134px; left: 0; right: 0; text-align: center;
+    .section-animate{position: absolute; opacity: 0; pointer-events: none; height: 800px;}
+}
+#triggerHead{position: absolute; top: 110vh;}

@@ -1,0 +1,42 @@
+.pagination-block{position: relative; padding: 30px 0;}
+.pagination-label{
+    .title{font-size: 22px; font-weight: normal; line-height: 1; color: $color-lightgray;}
+    span{font-size: 24px; font-weight: bold; line-height: 1; color: $color-light;  display: inline; margin: 0 8px;
+        padding: 2px 25px; background-color: $color-primary;
+        @include border-radius(30px);
+    }
+}
+.pagination{margin: 0;
+    .link{display: block;  text-align: center;  min-width: 50px; height: 50px; line-height: 48px; 
+        padding: 0 10px; font-size: 22px; font-weight: normal;  position: relative;
+        background-color: $color-none; color: $color-lightgray; border: 1px solid $color-border;
+        @include border-radius(0%);
+        @include transition(all 200ms ease-out);
+        &:hover{ color: $color-primary;}
+        .feather{position: relative; top: 4px;}
+        &:before{content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 2px; width: 100%; 
+            background-color: $color-primary; opacity: 0;
+            @include transition(all 200ms ease-out);
+        }
+    }
+    .active{
+        .link{color: $color-primary;
+            &:before{opacity: 1;}
+        }
+    }
+    li{display: inline-block; vertical-align: middle;}
+    li + li{margin-left: 6px;}
+    .pagination-nav{
+        .link{color: $color-lightgray;
+            &:hover{ color: $color-primary;}
+        }
+    }
+    .jumpPage {width: 110px; padding-top: 5px;}
+    .select2-container--default .select2-selection--single{height: 40px;}
+    .select2-container .select2-selection--single .select2-selection__rendered { 
+        color: $color-lightgray; line-height: 38px; font-size: 22px; font-weight: normal;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__arrow:before {
+        line-height: 36px;font-size: 26px;color: $color-lightgray;
+    }
+}
